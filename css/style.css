@@ -1,0 +1,599 @@
+/*start main rules */
+body {
+  background-color: #222222;
+}
+.container{
+  width: 1025px;
+  margin: auto;
+}
+/* end main rules */
+
+/* Start Header */
+.header .slider {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../images/slider.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 1900;
+  padding: 30px;
+  overflow: hidden;
+}
+.navbar {
+  display: flex;
+  flex-direction: row ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ccc;
+  box-shadow: 1px 1px 10px #eee;
+}
+.header .slider .navbar a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header .slider .navbar ul {
+  padding-left: 330px;
+}
+.header .slider .navbar ul li {
+  text-transform: uppercase;
+  margin-right: 30px;
+  letter-spacing: 3px;
+  color: #000;
+}
+.header .slider .intro {
+  height: 1200px;
+  text-align: center;
+  color: #fff;
+  padding-top: 800px;
+}
+.header .slider .intro h1 {
+  font-weight: lighter;
+  font-size: 45px;
+}
+.header .slider .intro strong {
+  font-size: 50px;
+}
+.header .slider .intro p {
+  letter-spacing: 4px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #086972;
+}
+/* End Header */
+/* Start Features */
+.features {
+  overflow: hidden;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.features .container{
+  width: 1170px;
+}
+.features h1 {
+  color: #fff;
+}
+.features ul {
+  padding: 25px 0;
+}
+
+.features ul li {
+  margin-right: 30px;
+  letter-spacing: 3px;
+  color: #777;
+  transition: color 0.3s ease-in-out;
+}
+.features ul li:hover {
+  color: #b2c251;
+}
+.features .my-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.features .my-work > div {
+  width: 30%;
+  margin-bottom: 10px;
+}
+.features .my-work > div img {
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+}
+.features .my-work > div h4 {
+  color: #fff;
+  line-height: 1.5;
+}
+.features .my-work > div span {
+  font-size: 11px;
+  color: #ccccc0;
+}
+/* End Features */
+
+/* Start Resume */
+.resume {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+.resume .container{
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.resume h1 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+.resume h2 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.resume strong {
+  font-size: 40px;
+}
+
+/* Start Edu */
+.resume .education,
+.resume .experience {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.resume .education h2,
+.resume .experience h2 {
+  color: #fff;
+  width: 100%;
+}
+.resume .education .edu,
+.resume .experience .exp {
+  background-color: #333333;
+  padding: 10px 10px 15px;
+  margin: 10px 10px 10px;
+  border: 1px solid#000;
+  border-radius: 15px;
+}
+.resume .education .edu span,h3,p,
+.resume .experience .exp span,h3,p {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.resume .education .edu span,
+.resume .experience .exp span {
+  color: #fff;
+}
+.resume .education .edu i,
+.resume .experience .exp i {
+  margin-right: 5px;
+}
+.resume .education .edu h3,
+.resume .experience .exp h3 {
+  color: #b2c251;
+}
+.resume .education .edu p,
+.resume .experience .exp p {
+  line-height: 1.7;
+  color: #777;
+}
+.resume .education .edu span:last-of-type,
+.resume .experience .exp span:last-of-type {
+  color: #777;
+}
+
+/* End Resume */
+
+/* Start About Me */
+.about-me {
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.about-me .container{
+  display: flex;
+  flex-direction: row;
+}
+.about-me .image {
+  width: 50%;
+}
+.about-me .image img {
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.about-me .text {
+  width: 33%;
+  text-align: left;
+  padding-left: 130px;
+}
+.about-me .text h2 {
+  margin: 20px 0 20px 40px;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.about-me .text strong {
+  font-size: 40px;
+}
+.about-me .text > p {
+  color: #555;
+  line-height: 1.7;
+  padding: 5px;
+}
+.about-me .text .last {
+  font-size: 13px;
+}
+.about-me .text .cv {
+  background-color: #5a6268;
+}
+/* End About Me */
+
+/* start testemonials */
+
+.testemonials {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.testemonials .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.testemonials h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+  width: 100%;
+}
+.testemonials strong {
+  font-size: 40px;
+}
+.testemonials .opinion {
+  width: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.testemonials .opinion .image {
+  width: 10%;
+  padding-top: 20px;
+  padding-left: 250px;
+}
+.testemonials .opinion .image img {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.testemonials .opinion .text {
+  color: #555;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 35px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+.testemonials .opinion .text blockquote {
+  line-height: 1.5;
+}
+.testemonials .opinion .text cite {
+  padding-left: 50px;
+}
+.testemonials .opinion .text a {
+  color: #bac964;
+}
+/* end testemonials */
+
+/* Start services */
+.services {
+  padding-top: 100px;
+  overflow: hidden;
+}
+.services h2 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.services strong {
+  font-size: 40px;
+}
+.services .holder {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+/* Start Design */
+.services .holder .design,
+.services .holder .editing,
+.services .holder .seo  {
+  width: 30.3333%;
+  border: 1px solid#000;
+  background: #333333;
+  height: 400px;
+  padding-top: 30px;
+}
+.services .holder .design i,
+.services .holder .seo i,
+.services .holder .editing i {
+  color: #bac964;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.services .holder .design h3,
+.services .holder .editing h3,
+.services .holder .seo h3 {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.services .holder .design p,
+.services .holder .seo p,
+.services .holder .editing p {
+  line-height: 1.4;
+  color: #777;
+}
+.services .holder .design a,
+.services .holder .seo a,
+.services .holder .editing a {
+  color: #bac964;
+  word-spacing: 2px;
+  text-decoration: none;
+}
+/* End Design */
+/* start Seo */
+.services .holder .seo {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+/* End Seo */
+/* Start Editing */
+.services .holder .editing {
+ margin-left: 25px;
+}
+/* end services */
+
+/* Start Blog */
+
+.blog {
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.blog .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog h2 {
+  width: 100%;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+/* start 1 */
+.blog .one,
+.blog .two,
+.blog .three {
+  background-color: #333333;
+  height: 600px;
+  overflow: hidden;
+  width: 30%;
+  border: 1px solid#ccc;
+}
+.blog .one img,
+.blog .two img,
+.blog .three img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.blog .one a,
+.blog .two a,
+.blog .three a {
+  text-decoration: none;
+}
+.blog .one a:hover,
+.blog .two a:hover,
+.blog .three a:hover {
+  color: #bac964;
+}
+.blog .one h3,
+.blog .two h3,
+.blog .three h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  color: #fff;
+}
+.blog .one h3:hover,
+.blog .two h3:hover,
+.blog .three h3:hover {
+  color: #bac964;
+}
+.blog .one p,
+.blog .two p,
+.blog .three p {
+  color: #666;
+  line-height: 1.7;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.blog .one .social span,a,
+.blog .two .social span,a,
+.blog .three .social span,a {
+  margin-left: 15px;
+  color: #666;
+}
+
+/* End 1*/
+/* Stat2 */
+.blog .two {
+  margin-left: 30px;
+}
+/* End 2 */
+/* Start 3 */
+.blog .three {
+  margin-left: 30px;
+}
+
+/* End 3 */
+/* End Blog */
+/* Start Connection */
+.contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.contact h2 {
+  width: 100%;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 50px;
+  text-align: center;
+}
+/* Start Form */
+.contact .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact .form {
+  width: 50%;
+  overflow: hidden;
+}
+.contact .form h3 {
+  color: #fff;
+}
+.contact .form input,
+textarea {
+  background-color: #333333;
+  border: 1px solid#ddd;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.contact .form input:focus,
+textarea:focus{
+  outline: none;
+}
+.contact .form input[type='text'] {
+  width: 80%;
+  height: 40px;
+  color: #fff;
+}
+.contact .form textarea {
+  height: 200px;
+  width: 300px;
+}
+.contact .form input[type='submit'] {
+  cursor: pointer;
+  background-color: #b2c251;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 10px;
+  border: 1px solid#ddd;
+  border-radius: 25px;
+}
+
+/* End Form */
+/* Start Detail */
+.contact .detail {
+  width: 50%;
+  overflow: hidden;
+}
+.contact .detail h3 {
+  color: #fff;
+}
+.contact .detail li {
+  color: #666;
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.contact .detail span {
+  display: block;
+  color: #2c3e50;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+/* End Detail */
+/* End connection */
+/* Start Footer */
+.footer {
+  text-align: center;
+}
+.footer p {
+  color: #666;
+  font-size: 1.5rem;
+}
+.footer p a {
+  color: #b2c251;
+}
+.footer span {
+  display: inline-block;
+  padding-top: 10px;
+  color: grey;
+  font-size: 50px;
+  margin-left: 30px;
+}
+.footer .face {
+  color: #0071f2;
+}
+.footer .twitter {
+  color: #00acee;
+}
+/* End Footer */
+
+/* Start Framework */
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+button,
+strong,
+input {
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+}
+button {
+  background-color: #b2c251;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.span {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+input {
+  display: block;
+}
+a {
+  text-decoration: none;
+}

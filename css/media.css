@@ -1,0 +1,208 @@
+@media(max-width:1024px){
+    .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }    
+
+    .header .slider .navbar ul {
+        padding-left: 70px;
+        margin: 10px auto;
+    }
+    .features .container{
+        width: 100%;
+      }
+    .features .my-work > div {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .features .my-work > div img {
+        width: 85%;
+        margin: 5px;
+        padding: 5px;
+      }
+    .resume .education,
+    .resume .experience{
+        width: 100%;
+    }
+    .resume .education h2,
+    .resume .experience h2{
+        margin-left: 20px;
+    }
+    .resume .education .edu,
+    .resume .experience .exp {
+        width: 85%;
+    }
+    .resume .container{
+        width: 100%;
+    }
+    .about-me {
+        overflow: hidden;
+        padding-top: 50px;
+        padding-bottom: 100px;
+      }
+    .about-me .text {
+        width: 40%;
+        text-align: left;
+        margin-left: 40px;
+        padding-left: 5px;
+    }
+    .btns{
+        display: flex;
+    }
+    .btns button{
+        width: 100%;
+        border: none;
+    }
+
+    .testemonials {
+        padding-top: 10px;
+    }
+    .services .holder{
+        justify-content: center;
+    }
+    .services .holder .design,
+    .services .holder .editing,
+    .services .holder .seo{
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    .blog {
+        overflow: hidden;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .blog .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    .blog .one,
+    .blog .two,
+    .blog .three {
+        margin-top: 10px;
+        width: 45%;
+    }
+    .contact .container{
+        padding: 0 20px
+    }
+    .footer p {
+        color: #666;
+        font-size: 1.2rem;
+    }
+    .footer span {
+        font-size: 40px;
+        margin-left: 30px;
+    }
+}
+@media(max-width: 768px){
+    .header .slider .navbar ul {
+        padding-left: 5px;
+        margin: 5px auto;
+    }
+    .header .slider .navbar ul li{
+        margin-right: 10px;
+    }
+
+    .features ul {
+        padding: 25px 0;
+        display: flex;
+    }
+      
+    .features ul li {
+        margin-right: 10px;
+        letter-spacing: 3px;
+        color: #777;
+        transition: color 0.3s ease-in-out;
+      }
+
+    .about-me .container{
+        display: block;
+    }
+    .about-me .image{
+        
+        width: 85%;
+    }
+    .about-me .text {
+        width: 85%;
+    }
+    .testemonials .container{
+        justify-content: center;
+    }
+    .testemonials .opinion {
+        width: 90%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .blog .one .social a,
+    .blog .two .social a,
+    .blog .three .social a {
+        margin-left: 1px;
+    }
+    .contact .form textarea {
+        height: 100px;
+        width: 250px;
+    }
+}
+@media(max-width: 575px){
+    .navbar{
+        visibility: hidden;
+    }
+    .features .my-work > div {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .testemonials .opinion {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .services .holder .design,
+    .services .holder .editing,
+    .services .holder .seo  {
+        width: 90%;
+        margin-left: 0;
+    }
+    .blog .one,
+    .blog .two,
+    .blog .three {
+      width: 90%;
+      margin-left: 0;
+    }
+    .contact .form {
+        width: 90%;
+        overflow: hidden;
+    }
+    .contact .detail {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact .detail h3{
+        width: 100%;
+    }
+    .contact .detail li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .contact .detail li:last-of-type{
+        display: block;
+    }
+
+}
+@media(max-width: 425px){
+    .btns button{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact .detail li {
+        display: block;
+        margin-right: 15px;
+    }
+    .contact .detail li:last-of-type{
+        display: block;
+    }
+}
